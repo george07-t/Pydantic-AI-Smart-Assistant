@@ -19,9 +19,14 @@ This project implements a smart assistant using the `pydantic-ai` library. The a
 - Example: "Plan a 5-day trip to Paris."
 
 ### 4. **Google Calendar Integration**
+- Performs intelligent web searches to retrieve relevant information quickly and efficiently.
+- Example: "Add a trip to Sylhet from June 1 to June 5."
+
+### 5. **Google Smart Web Search Integration**
 - Adds events to Google Calendar.
 - Retrieves upcoming events from Google Calendar within a specified date range.
-- Example: "Add a trip to Sylhet from June 1 to June 5."
+- Example: "what is the Current status of Bangladesh?"
+
 
 ### 5. **Chatbot Interface**
 - A Gradio-based chatbot interface for interacting with the assistant.
@@ -83,6 +88,13 @@ This project implements a smart assistant using the `pydantic-ai` library. The a
   ```python
   await get_upcoming_events("2024-06-01", "2024-06-15")
   ```
+### 5. **Google Web Search Tool**
+- **Function**: `searchWeb`
+- **Description**: Searches for a query using Google Search and returns the top 5 results with titles and descriptions.
+- **Example**:
+  ```python
+  await searchWeb(What is the Current Status of Bangladesh?)
+  ```
 
 ## Gradio Interface
 
@@ -133,6 +145,10 @@ The assistant is integrated with Gradio to provide a chatbot interface. Users ca
 ### Get Upcoming Events
 - **Input**: "What are my events for the next week?"
 - **Output**: List of upcoming events with dates and summaries.
+
+### Web Search
+- **Input**: "What is the status of Bangladesh now?"
+- **Output**: List of search links with their title and descriptions.
 
 ---
 

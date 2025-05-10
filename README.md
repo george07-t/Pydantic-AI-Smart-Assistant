@@ -1,6 +1,6 @@
 # Smart Assistant with Tools
 
-This project implements a smart assistant using the `pydantic-ai` library. The assistant is capable of performing various tasks such as fetching weather information, evaluating mathematical expressions, planning trips, managing Google Calendar events, and retrieving upcoming events. The assistant is integrated with Gradio to provide a user-friendly chatbot interface.
+This project implements a smart assistant using the `pydantic-ai` library. The assistant is capable of performing various tasks such as fetching weather information, evaluating mathematical expressions, planning trips, managing Google Calendar events, retrieving upcoming events, and performing web searches. The assistant is integrated with Gradio to provide a user-friendly chatbot interface.
 
 ---
 

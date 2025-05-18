@@ -1,4 +1,12 @@
 # Smart Assistant with Tools
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) 
+![Python](https://img.shields.io/badge/Language-Python-blue.svg)
+![AI](https://img.shields.io/badge/Domain-AI-purple.svg)
+![Web Search](https://img.shields.io/badge/Feature-Web_Search-lightblue.svg)
+![Gradio](https://img.shields.io/badge/Interface-Gradio-green.svg)
+![Calendar](https://img.shields.io/badge/Feature-Calendar-orange.svg)
+![Math](https://img.shields.io/badge/Feature-Math-red.svg)
+
 
 This project implements a smart assistant using the `pydantic-ai` library. The assistant is capable of performing various tasks such as fetching weather information, evaluating mathematical expressions, planning trips, managing Google Calendar events, retrieving upcoming events, and performing web searches. The assistant is integrated with Gradio to provide a user-friendly chatbot interface.
 
